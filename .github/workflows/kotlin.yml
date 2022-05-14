@@ -5,11 +5,6 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  issues:
-    types:
-      - opened
-      - edited
-    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
